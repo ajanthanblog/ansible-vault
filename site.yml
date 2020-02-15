@@ -1,0 +1,5 @@
+- name: Install MySQL Server
+  hosts: mysqldb
+  roles:
+    - role: mysql-centos
+  tags: [ mysqlinstallation ]
